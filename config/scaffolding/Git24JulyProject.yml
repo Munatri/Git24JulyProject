@@ -7,3 +7,112 @@ packages:
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
   gitBranch: main
+- name: WmSalesforceProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
+services:
+- serviceName: project.git24july.WmSalesforceProvider.com_softwareag_cloudstreams_salesforce_v53.connections:sfJuy24
+  packages:
+  - name: Git24JulyProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.66
+- serviceName: project.git24july.integrations:test1
+  packages:
+  - name: Git24JulyProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.66
+- serviceName: project.git24july.WmSalesforceProvider.com_softwareag_cloudstreams_salesforce_v53.operations.actions:CAq
+  packages:
+  - name: Git24JulyProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.66
+configurationVariables:
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.minimumPoolSize
+  : "1"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.timeoutType
+  : fixed
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cr.preemptiveAuthEnabled
+  : "false"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.keepAliveInterval
+  : "300000"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.rh.requestHeaderNames
+  : "Content-Type,SOAPAction"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.connectTimeout
+  : "180000"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.pr.userAgent
+  : Cloudstreams
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.startupBackoffSecs
+  : "10"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.retryCount
+  : "3"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.providerUrl
+  : https://login.salesforce.com/services/Soap/u/53.0
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.tcpNoDelay
+  : "false"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.retryIfRequestSentOk
+  : "true"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.startupRetryCount
+  : "0"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cr.password
+  : "{AES}OYSjbNfOLUKJAT+MWJt0w3FPbUooYAcCzhGF0UMKgsfxDQ1MMLJvU+e5tmiaXP+/"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.poolable
+  : "true"
+  ? iscloudstreamsconnectorservice.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..operations..actions:CAq.connectionAlias
+  : project.git24july.WmSalesforceProvider.com_softwareag_cloudstreams_salesforce_v53.connections:sfJuy24
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cr.username
+  : rithi@softwareag.com
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.pr.useExpectCont
+  : "false"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.connectionEnabled
+  : "true"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.pr.httpContentCharSet
+  : ISO-8859-1
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.pr.allowCircularRedirects
+  : "true"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.pr.followServerRedirects
+  : "true"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.readTimeout
+  : "180000"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.expireTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.socketLinger
+  : "-1"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cr.authSchemeType
+  : none
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.sockBuffSize
+  : "8192"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.reuseAddr
+  : "false"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.socketStaleCheck
+  : "true"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.pr.useChunking
+  : "false"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.blockTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.pr.protocolVersion
+  : HTTP/1.1
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.hostnameVerifier
+  : org.apache.http.conn.ssl.DefaultHostnameVerifier
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.poolIncrementSize
+  : "1"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.pr.serverRedirectMax
+  : "5"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.rh.requestHeaderValues
+  : "text/xml,login"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.enableCompression
+  : "false"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.sessionExpiry
+  : "14"
+  ? iscloudstreamsconnectorservice.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..operations..actions:CAq.virtualServiceName
+  : WmCloudStreams.SoapVS
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.idleTimeout
+  : "-1"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.maximumPoolSize
+  : "10"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.enableSNI
+  : "true"
+  ? cloudstreamsconnection.project..git24july..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:sfJuy24.cn.validateAfterInactivity
+  : "1000"
